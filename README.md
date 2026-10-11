@@ -34,8 +34,7 @@ Deep Learning assignment, Section B. A small Inception-style CNN is trained from
 
 ## How to reproduce
 1. Open `notebook.ipynb` on a GPU runtime (Kaggle or Colab) with internet enabled.
-2. Install requirements if needed: `pip install -r requirements.txt`.
-3. Run all cells from top to bottom. CIFAR-10 downloads automatically. Training all configurations takes a while.
+2. Run all cells from top to bottom. CIFAR-10 downloads automatically. Training all configurations takes a while.
 
 ## Notes
 - The official hidden corruption was not provided. `shifted_test` uses only the listed corruptions, and Part E4 uses an **assumed** corruption (random grayscale, p = 0.5).
